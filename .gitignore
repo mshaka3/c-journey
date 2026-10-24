@@ -1,0 +1,35 @@
+# ---- Build output (Makefile puts everything here) ----
+build/
+
+# ---- Compiler artifacts, in case anything is built outside build/ ----
+*.o
+*.d
+*.a
+*.so
+*.out
+*.exe
+a.out
+
+# ---- Debugging and crash leftovers ----
+core
+core.*
+vgcore.*
+*.dSYM/
+.gdb_history
+perf.data
+perf.data.old
+
+# ---- CMake (phase 3) ----
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+
+# ---- Editors and OS ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
